@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Sora;
+    src: url(../Fonts/Sora-Regular.ttf);   
+  }
+  @font-face {
+    font-family: Sora2;
+    src:url(../Fonts/Sora-ExtraLight.ttf);
+  }
+  @font-face {
+    font-family: Sora5;
+    src: url(../Fonts/Sora-Bold.ttf);
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: Sora;
+  }
+  .contenedor{
+    display: flex;
+    flex-direction: column;
+    margin:80px auto;
+    text-align: center;
+    width:90%;
+
+  }
+  h1{
+    color: #767879;
+    font-size:xx-large; 
+    }
+  p{
+    color: #a5a5a5;
+    font-size: large;
+  }
+  a{ 
+    color: rgb(255, 255, 255);
+    font-family: "Sora2";
+    padding: 0 10px;
+  }
+  a:hover{
+    font-family: "Sora5";
+  }
+  .formulario {
+      width: 450px;
+      height: 380px;
+      background: rgb(235, 253, 255);
+      color: #0f9fb8;
+      padding: 55px 30px;
+      margin: auto;
+  }
+
+  
+  label {
+      font-weight: bold;
+  }
+
+  .origen{
+    text-align: start;
+    width: 100%;
+  }
+  input {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  .formulario input[type="number"]  {
+      outline: bottom;
+      height: 40px;
+      color: rgb(8, 8, 8);
+      border:none;
+      font-size: 16px;
+  }
+  .transferencia  input[type="text"]{
+      display: block;
+      width: 50%;
+      border: none;
+      border-bottom: 1px solid #46A2FD;
+      font-size: 20px;
+      transform: translate(50%, 20%)
+  }
+  .formulario input[type="submit"] {
+      border-radius: 10px;
+      padding: 10px 30px;
+      color: #fff;
+      background-color: #46A2FD;
+      border: none;
+      margin: auto;
+      display: block;
+      width: 50%;
+    }
+  .formulario input[type="submit"]:hover {
+      background: #000000;
+      font-family: Sora5;
+    }
+    @media screen and (max-width:600px){
+      .formulario{
+        width: 370px;
+        height: 350px;
+      }
+    }
+  ::placeholder{color: rgb(189, 205, 212);}

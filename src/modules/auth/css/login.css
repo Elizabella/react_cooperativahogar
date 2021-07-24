@@ -1,0 +1,86 @@
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.login {
+  background: linear-gradient(rgb(44, 246, 213),rgba(0,0,0,1));
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.login__form {
+  background-color: #030c1c7c;
+  width: 450px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.login h1 {
+  color: white;
+  text-align: center;
+  font-size: bold;
+  font-family: sora;
+  font-size: 30px;
+  padding: 10px ;
+}
+.login .formulario {
+  width: 400px;
+  margin: auto;
+  background-color: #030c1c23;
+  border-radius: 10px;
+}
+.login .formulario label {
+  color: white;
+  padding: 10px 0px;
+  display: block;
+}
+.login .formulario__input {
+  transition: width 0.15s ease-in-out;
+  margin: 5px auto;
+  display: block;
+  width: 95%;
+  padding: 10px 20px 10px 40px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 10px;
+  font-size: 1.1rem;
+}
+.login .formulario__input:focus {
+  width: 100%;
+  box-shadow: 0px 0px 8px white;
+}
+.login .formulario__input[type=text] {
+  background-image: url("./../images/email.svg");
+}
+.login .formulario__input[type=text]:focus {
+  background-image: url("./../images/emailhover.svg");
+}
+.login .formulario__input[type=password] {
+  background-image: url("./../images/password.svg");
+}
+.login .formulario__input[type=password]:focus {
+  background-image: url("./../images/passwordhover.svg");
+}
+.login .formulario__submit {
+  width: 95%;
+  display: block;
+  margin: 20px auto;
+  background-color: #ff9c63;
+  outline: none;
+  padding: 10px 0;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+.login .formulario__submit:hover {
+  background-color: #ff7c30;
+}

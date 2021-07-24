@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Sora Medium";
+    src: url(../Fonts/Sora-Light.ttf);
+  }
+@font-face {
+    font-family: Sora2;
+    src:url(../Fonts/Sora-ExtraLight.ttf);
+}
+@font-face {
+    font-family: Sora5;
+    src: url(../Fonts/Sora-Bold.ttf);
+}
+@font-face {
+    font-family: Sora;
+    src: url(../Fonts/Sora-Regular.ttf);   
+}
+
+*{
+    font-family: Sora !important;
+}
+
+.navbar {
+        font-family: Sora;
+        color: white;
+}
+
+
+
+.form-check-input:checked {
+    background-color: #0dfd79 !important;
+    border-color: #0dfd79 !important;
+
+}
+
+.celeste{
+    color: #6ECAF1;
+}
+
+.solicitar{
+    background-color: #6ECAF1 !important;
+    border: #6ECAF1  !important;
+}
+
+
+.solicitar:hover {
+    background-color: #0dfd79 !important;
+    border-color: #0dfd79 !important;
+}
+
+.borde{
+    border: 1px solid black;
+    width: 50vw;
+    
+}
+
+a{
+   
+    color: rgb(255, 255, 255);
+    font-family: "Sora2" !important;
+    padding: 0 10px;
+}
+a:hover{
+    font-family: "Sora5" !important;
+}
+
+.profile-title-3 {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--navbar-shallow-color);
+    font-family: "Noto Sans", sans-serif;
+}
+
+
